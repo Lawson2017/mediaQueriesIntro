@@ -1,0 +1,41 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block; 
+	height:60px;
+	width:10%;
+	margin: 10px 0 10px 0;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+@media only screen and (max-width: 599px) {
+	 div.box.red,
+	  div.box.blue{
+	 	display: none;
+	 }
+
+} 
+
+@media only screen and (min-width: 1000px) {
+	 div.box {
+	 	width: 100%;
+	 }
+
+} 
